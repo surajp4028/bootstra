@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.height{
+    height: 100vh;
+}
+.about-img{
+    width: 100%;
+    height: 300px;
+}
+.service-img{
+    width: 1200px;
+}
+.foot{
+    color: crimson;
+    font-weight: bold;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background: #000;
+}
+footer h4{
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+}
+@media (max-width:500px){
+    .service-img{
+        width: 380px;
+        height: 200px;
+    }
+    .height{
+        height: 43vh;
+    }
+    .mar{
+        padding:0 65px;
+        /* text-align: center; */
+    }
+    .mar{
+        /* text-align: center; */
+        align-items: center;
+        justify-content: center;
+    }
+}
